@@ -1,4 +1,4 @@
-# 🌌 SMARTKODE - The Nexus Patch (v3.0.0)
+# 🌌 SMARTKODE - The Nexus Patch 
 
 Welcome to **SMARTKODE**, a high-performance, cyberpunk-infused gamification platform built for developers who live on the edge of the digital frontier.
 
@@ -41,33 +41,4 @@ The UI breathes with your real-world clock. The theme colors shift automatically
 - **Animation**: Framer Motion (Spring Physics + 3D Gallery)
 - **Audio**: Custom Synth SFX Engine
 
----
 
-## ⌨️ Advanced Operations (Easter Eggs)
-
-### 🧛 The Quantum Console
-Press **`Alt + T`** to open the Command Layer.
-- `scan`: Locate local sector vulnerabilities.
-- `breach [host]`: Initiate a real-time brute force simulation.
-- `market`: Access the secret Dark Web shop (Requires node activation).
-- `system`: View hardware diagnostics.
-
----
-
-## 🚀 Getting Started
-
-1. **Install Dependencies**: `npm install`
-2. **Launch Nexus**: `npm run dev`
-3. **Login**: Enjoy the high-fidelity video background entrance.
-
--- *Built by Antigravity AI* --
-
-## 📚 Documentation
-
-Complete documentation is available in the `/docs` directory:
-- [API Documentation](./docs/API.md)
-- [Architecture Guide](./docs/ARCHITECTURE.md)
-- [User Guide](./docs/USER_GUIDE.md)
-- [Development Setup](./docs/DEVELOPMENT.md)
-- [Technical Overview](./docs/TECHNICAL.md)
-- [Data Structures](./docs/DATA_STRUCTURES.md)
