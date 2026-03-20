@@ -1,0 +1,58 @@
+[
+  {
+    "id": "m1",
+    "title": "React Foundations",
+    "description": "Learn the basics of React components and JSX in this tutorial wave.",
+    "xpReward": 150,
+    "topic": "React",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "m2",
+    "title": "Stateful Components",
+    "description": "Master the useState hook and dynamic rendering.",
+    "xpReward": 250,
+    "topic": "React",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "m3",
+    "title": "Tailwind Master",
+    "description": "Style modern UIs with utility classes. A true test of design.",
+    "xpReward": 300,
+    "topic": "CSS",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "m4",
+    "title": "Routing Basics",
+    "description": "Navigate between pages using React Router.",
+    "xpReward": 200,
+    "topic": "React Router",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "m5",
+    "title": "Data Persistence",
+    "description": "Save data locally without a database using LocalStorage API.",
+    "xpReward": 350,
+    "topic": "JavaScript",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "m6",
+    "title": "JavaScript Fundamentals",
+    "description": "ES6+, array methods, and destructuring mastery.",
+    "xpReward": 400,
+    "topic": "JavaScript",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "m7",
+    "title": "Boss: The Frontend Gauntlet",
+    "description": "Ultimate test containing advanced edge cases in React and styling.",
+    "xpReward": 1000,
+    "topic": "Frontend Core",
+    "difficulty": "Boss"
+  }
+]

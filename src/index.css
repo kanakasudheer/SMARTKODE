@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-slate-100 bg-slate-950;
+  }
+  
+  /* Make text selections look cyberpunk */
+  ::selection {
+    @apply bg-indigo-500/50 text-white;
+  }
+}
+
+.glass-panel {
+  @apply bg-slate-900/60 backdrop-blur-2xl border border-slate-700/50 shadow-[0_8px_32px_rgba(0,0,0,0.5)];
+}
+
+/* Cyberpunk Global CRT Overlay */
+.crt-mode {
+  position: relative;
+  overflow: hidden;
+}
+
+.crt-mode::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 100;
+  background-size: 100% 4px, 6px 100%;
+  pointer-events: none;
+  animation: scanlines 10s linear infinite;
+}
+
+.crt-mode::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 150, 0, 0.05); /* Slight green phosphor tint */
+  z-index: 100;
+  pointer-events: none;
+}
+
+/* Atmosphere Dynamic Shifting */
+.atmosphere-horizon {
+  --primary-glow: rgba(245, 158, 11, 0.15);
+  box-shadow: inset 0 0 100px var(--primary-glow);
+}
+.atmosphere-solar {
+  --primary-glow: rgba(56, 189, 248, 0.1);
+  box-shadow: inset 0 0 120px var(--primary-glow);
+}
+.atmosphere-sunset {
+  --primary-glow: rgba(236, 72, 153, 0.15);
+  box-shadow: inset 0 0 100px var(--primary-glow);
+}
+.atmosphere-midnight {
+  --primary-glow: rgba(99, 102, 241, 0.1);
+  box-shadow: inset 0 0 150px rgba(0,0,0,0.8);
+}
+
+.atmosphere-horizon .glass-panel { border-color: rgba(245, 158, 11, 0.3); }
+.atmosphere-solar .glass-panel { border-color: rgba(56, 189, 248, 0.3); }
+.atmosphere-sunset .glass-panel { border-color: rgba(236, 72, 153, 0.3); }
+.atmosphere-midnight .glass-panel { border-color: rgba(99, 102, 241, 0.2); }

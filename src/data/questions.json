@@ -1,0 +1,130 @@
+{
+  "m1": [
+    {
+      "id": "q1",
+      "text": "What does JSX stand for?",
+      "options": ["JavaScript XML", "Java Syntax Extension", "JSON XML", "JavaScript Syntax"],
+      "correct": "JavaScript XML"
+    },
+    {
+      "id": "q2",
+      "text": "How do you pass data to a Component from its parent?",
+      "options": ["State", "Props", "Context", "Hooks"],
+      "correct": "Props"
+    },
+    {
+      "id": "q11",
+      "text": "React components must return how many parent elements?",
+      "options": ["Zero", "Exactly One", "Any Number", "Two"],
+      "correct": "Exactly One"
+    }
+  ],
+  "m2": [
+    {
+      "id": "q3",
+      "text": "Which hook is used to manage state?",
+      "options": ["useEffect", "useContext", "useState", "useReducer"],
+      "correct": "useState"
+    },
+    {
+      "id": "q4",
+      "text": "State updates in React are generally...",
+      "options": ["Synchronous", "Asynchronous", "Immediate", "Blocking"],
+      "correct": "Asynchronous"
+    },
+    {
+      "id": "q12",
+      "text": "What is the second argument returned by useState?",
+      "options": ["Getter function", "Setter function", "The previous state", "A boolean"],
+      "correct": "Setter function"
+    }
+  ],
+  "m3": [
+    {
+      "id": "q5",
+      "text": "In Tailwind, what class adds a margin top of 1rem?",
+      "options": ["m-1", "mt-4", "mt-1", "pt-4"],
+      "correct": "mt-4"
+    },
+    {
+      "id": "q6",
+      "text": "Which framework is known as 'utility-first CSS'?",
+      "options": ["Bootstrap", "Foundation", "Tailwind CMS", "Tailwind CSS"],
+      "correct": "Tailwind CSS"
+    },
+    {
+      "id": "q13",
+      "text": "How do you apply a class only on hover in Tailwind?",
+      "options": [":hover:bg-red-500", "hover-bg-red-500", "hover:bg-red-500", "bg-red-500:hover"],
+      "correct": "hover:bg-red-500"
+    }
+  ],
+  "m4": [
+    {
+      "id": "q7",
+      "text": "What component is used to define paths in React Router v6?",
+      "options": ["<Switch>", "<Routes>", "<RoutePath>", "<Navigation>"],
+      "correct": "<Routes>"
+    },
+    {
+      "id": "q8",
+      "text": "Which hook accesses query parameters?",
+      "options": ["useParams", "useQuery", "useSearchParams", "useSearch"],
+      "correct": "useSearchParams"
+    }
+  ],
+  "m5": [
+    {
+      "id": "q9",
+      "text": "Which object is used to persist data locally in a browser?",
+      "options": ["sessionStorage", "globalStorage", "localStorage", "cookieStorage"],
+      "correct": "localStorage"
+    },
+    {
+      "id": "q10",
+      "text": "How do you store an object in localStorage?",
+      "options": ["localStorage.setItem(obj)", "localStorage.setItem('key', JSON.stringify(obj))", "localStorage.setItem('key', obj)", "localStorage.set('key', obj)"],
+      "correct": "localStorage.setItem('key', JSON.stringify(obj))"
+    }
+  ],
+  "m6": [
+    {
+      "id": "q14",
+      "text": "Which method creates a new array with the results of calling a provided function on every element?",
+      "options": ["map()", "filter()", "reduce()", "forEach()"],
+      "correct": "map()"
+    },
+    {
+      "id": "q15",
+      "text": "What is 'const { name } = user' an example of?",
+      "options": ["Spread operator", "Rest parameters", "Object binding", "Object destructuring"],
+      "correct": "Object destructuring"
+    },
+    {
+      "id": "q16",
+      "text": "Which of these is NOT a JS data type?",
+      "options": ["Undefined", "Symbol", "Float", "Boolean"],
+      "correct": "Float"
+    }
+  ],
+  "m7": [
+    {
+      "id": "boss1",
+      "text": "Why is it dangerous to use array index as a React key?",
+      "options": ["It crashes the app", "It causes performance issues universally", "It breaks UI mapping when the list order changes", "It is deprecated in React 18"],
+      "correct": "It breaks UI mapping when the list order changes"
+    },
+    {
+      "id": "boss2",
+      "text": "What does a React Context Provider return when a consumer is outside its sub-tree?",
+      "options": ["undefined", "null", "Default value specified in createContext", "An error is thrown completely"],
+      "correct": "Default value specified in createContext"
+    },
+    {
+      "id": "boss3",
+      "text": "Which hook should be used for subscribing to an external store to prevent tearing?",
+      "options": ["useEffect", "useMemo", "useLayoutEffect", "useSyncExternalStore"],
+      "correct": "useSyncExternalStore"
+    }
+  ]
+}

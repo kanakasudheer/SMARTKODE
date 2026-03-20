@@ -1,0 +1,7 @@
+[
+  { "id": "bot1", "name": "CodeNinja", "level": 12, "xp": 4500, "avatar": "🥷" },
+  { "id": "bot2", "name": "ReactMaster", "level": 10, "xp": 3800, "avatar": "⚛️" },
+  { "id": "bot3", "name": "FrontendGuru", "level": 8, "xp": 2900, "avatar": "🧙‍♂️" },
+  { "id": "bot4", "name": "CSS_Wizard", "level": 7, "xp": 2400, "avatar": "🎨" },
+  { "id": "bot5", "name": "BugSmasher", "level": 5, "xp": 1500, "avatar": "🐛" }
+]
