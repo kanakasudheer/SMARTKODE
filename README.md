@@ -1,6 +1,6 @@
-# 🌌 SkillKode - The Nexus Patch (v3.0.0)
+# 🌌 SMARTKODE - The Nexus Patch (v3.0.0)
 
-Welcome to **SkillKode**, a high-performance, cyberpunk-infused gamification platform built for developers who live on the edge of the digital frontier.
+Welcome to **SMARTKODE**, a high-performance, cyberpunk-infused gamification platform built for developers who live on the edge of the digital frontier.
 
 ---
 
